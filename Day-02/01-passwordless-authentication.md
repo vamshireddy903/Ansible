@@ -1,5 +1,13 @@
 # How to setup Passwordless Authentication
 
+# Local connecting
+    ls /mnt/c/Users/squar/Downloads/
+
+     cp /mnt/c/Users/squar/Downloads/ansible.pem ~/.ssh/
+     chmod 600 ~/.ssh/ansible.pem
+     ssh -i ~/.ssh/ansible.pem ubuntu@65.1.131.120
+
+
 ## EC2 Instances
 
 ### Using Public Key
